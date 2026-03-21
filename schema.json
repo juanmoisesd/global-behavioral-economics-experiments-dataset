@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset/blob/main/schema.json",
+  "title": "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta",
+  "description": "JSON Schema for the dataset: This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta",
+  "type": "object",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Moisés de la Serna Tuya",
+    "orcid": "https://orcid.org/0000-0002-8401-8018"
+  },
+  "license": "CC0-1.0",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique row identifier"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or region name"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Reference year",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "value": {
+      "type": "number",
+      "description": "Primary metric value"
+    },
+    "unit": {
+      "type": "string",
+      "description": "Unit of measurement"
+    },
+    "source": {
+      "type": "string",
+      "description": "Original data source"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Additional notes"
+    }
+  },
+  "required": [
+    "id",
+    "country",
+    "year",
+    "value"
+  ],
+  "additionalProperties": true
+}
