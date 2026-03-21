@@ -1,5 +1,43 @@
-title: "Global Behavioral Economics Experiments Dataset"
-description: "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across "
-author: "Juan Moisés de la Serna Tuya"
+# Jekyll configuration for GitHub Pages
+title: "global-behavioral-economics-experiments-dataset"
+description: "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta"
 url: "https://juanmoisesd.github.io"
 baseurl: "/global-behavioral-economics-experiments-dataset"
+
+author:
+  name: "Juan Moisés de la Serna Tuya"
+  orcid: "0000-0002-8401-8018"
+  linkedin: "https://www.linkedin.com/in/juanmoisesdelaserna/"
+  scopus: "26632846700"
+  institution: "Universidad Internacional de La Rioja (UNIR)"
+  email: "juanmoises.delaserna@unir.net"
+
+# SEO
+tagline: "Open Research Dataset"
+lang: "en"
+
+# Social
+twitter:
+  username: juanmoisesd
+  card: summary
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Build
+theme: minima
+include:
+  - README.md
+  - GLOSSARY.md
+  - ABOUT_THE_AUTHOR.md
+  - CITATION_GUIDE.md
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
