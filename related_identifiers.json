@@ -1,0 +1,30 @@
+{
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset",
+      "relation": "isDocumentedBy",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://orcid.org/0000-0002-8401-8018",
+      "relation": "isCreatedBy",
+      "scheme": "url",
+      "resource_type": "person"
+    },
+    {
+      "identifier": "https://juanmoisesd.github.io/global-behavioral-economics-experiments-dataset/",
+      "relation": "isDescribedBy",
+      "scheme": "url",
+      "resource_type": "webpage"
+    },
+    {
+      "identifier": "https://github.com/juanmoisesd",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "collection"
+    }
+  ],
+  "author": "Juan Moisés de la Serna Tuya",
+  "dataset": "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta"
+}
