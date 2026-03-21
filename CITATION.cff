@@ -1,20 +1,21 @@
 cff-version: 1.2.0
-message: "Please cite this dataset using the metadata below."
+message: "If you use this software/dataset, please cite it as below."
 type: dataset
-title: "Global Behavioral Economics Experiments Dataset"
+title: "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta"
 authors:
   - family-names: "de la Serna Tuya"
     given-names: "Juan Moisés"
     orcid: "https://orcid.org/0000-0002-8401-8018"
     affiliation: "Universidad Internacional de La Rioja (UNIR)"
-doi: "10.5281/zenodo.18970158"
-url: "https://doi.org/10.5281/zenodo.18970158"
+    email: "juanmoises.delaserna@unir.net"
 repository-code: "https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset"
-license: CC0-1.0
-date-released: "2026-03-11"
+url: "https://juanmoisesd.github.io/global-behavioral-economics-experiments-dataset/"
+abstract: "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta"
 keywords:
-  - "behavioral economics"
-  - "neuroeconomics"
-  - "Ultimatum Game"
-  - "Iowa Gambling Task"
-  - "delay discounting"
+  - open-data
+  - dataset
+  - research
+  - science
+license: CC0-1.0
+version: "1.0.0"
+date-released: "2026-03-20"
