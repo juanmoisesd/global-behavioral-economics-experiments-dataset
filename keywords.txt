@@ -1,0 +1,11 @@
+behavioral-economics, cc0, dataset, delay-discounting, iowa-gambling-task, neuroeconomics, open-data, ultimatum-game, zenodo
+open-data
+dataset
+research
+science
+FAIR
+reproducibility
+open-science
+academic
+citation
+DOI
