@@ -1,0 +1,46 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@type": [
+        "Dataset"
+      ],
+      "@id": "./",
+      "name": "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta",
+      "description": "This dataset compiles results from behavioral economics and neuroeconomics experiments published between 1990 and 2025. It integrates findings across four core experimental paradigms: the Ultimatum Game, the Iowa Gambling Task (IGT), Risk Aversion Ta",
+      "datePublished": "2026-03-20",
+      "license": {
+        "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8401-8018"
+      },
+      "url": "https://github.com/juanmoisesd/global-behavioral-economics-experiments-dataset",
+      "keywords": "behavioral-economics, cc0, dataset, delay-discounting, iowa-gambling-task, neuroeconomics, open-data, ultimatum-game, zenodo"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8401-8018",
+      "name": "Juan Moisés de la Serna Tuya",
+      "affiliation": {
+        "@id": "https://ror.org/0063t5s24"
+      },
+      "email": "juanmoises.delaserna@unir.net"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "CC0 1.0 Universal"
+    }
+  ]
+}
